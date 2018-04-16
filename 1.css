@@ -9,7 +9,6 @@
 
 .khoi-education img {
     width: 300px;
-    margin-top: 69px;
 }
 
 p.chunho.text-muted.text-white {
@@ -197,4 +196,181 @@ h1.tdkhoi:after{
     margin-right: 10px;
     color: white;
     margin-top: 5px;
+}
+
+/* css cho khoi strength */
+.strength{
+	background-color: white;
+	padding-bottom: 70px;
+}
+.chuhong{
+	color: #d63031;
+}
+.strength .chunho{
+	font-size: 15px;
+    color: #970000;
+    transition: 0.4s;
+}
+.strength .row .chunho{
+	font-size: 14px;
+	color: #636e72;
+	margin-top: 18px;
+	line-height: 19px;
+	transition: 0.4s;
+}
+.strength .col-sm-3._1khoi{
+	border: 1px  solid #80808029;
+	padding: 20px 4px;
+	border-radius: 7px;
+	height: 500px;
+	max-width: 26%!important;
+	margin-left: -25px;
+	transition: 0.5s;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.strength .col-sm-3._1khoi:hover {
+    background-color: #b2bec3;
+}
+.strength .col-sm-3._1khoi:hover .tdnho{
+	color:white;
+}
+.strength .col-sm-3._1khoi:hover .chunho{
+	color:#efecec;
+	font-size: 16px;
+	margin-top: 25px;
+}
+.strength .col-sm-3._1khoi:hover img{
+	border-radius:5px;
+	transform: scale(1.1);
+}
+.strength .row ._1khoi img{
+	width: 95%;
+	padding-top: 25px;
+	transition: 0.5s;
+}
+
+.strength h3.tdnho{
+    color: #14a7d7;
+    transition: 0.4s;
+}
+
+/* css cho slide */
+.admire  {
+	padding-top: 10px;
+	background-color: #dfe6e9;
+	padding-bottom: 10px;
+}
+ /* css cho khoi hobbies */
+
+ .hobbies{
+ 	background-color: #55efc4;
+ 	width: 100%;
+ 	height: 400px;
+ 	position: relative;
+ }
+  .hobbies div{
+ 	width: 200px;
+ 	height: 200px;
+ }
+ .hobbies .read{
+ 	width: 200px;
+ 	height: 200px;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 10px;
+ 	z-index: 3;
+ 	animation: dixuong 1.2s forwards;
+ 	opacity: 0;
+ }
+ .hobbies .read p{
+ 	font-weight: 600;
+ 	color: white;
+ 	animation: nguoclai 0.4s forwards;
+ 	animation-delay: 1.2s;
+ }
+ @-webkit-keyframes dixuong{
+ 	0%{top:0px;opacity: 0;}
+ 	100%{top:20%;opacity:1; transform: rotateZ(-30deg)}
+ }
+ @-webkit-keyframes nguoclai{
+ 	0%{transform: rotateZ(0deg)}
+ 	100%{ transform: rotateZ(30deg)}
+ }
+ .hobbies  img{
+ 	max-width: 100%;
+ 	height: auto;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+ }
+.hobbies div:hover img{
+	transform: scale(1.1);
+}
+.hobbies .workout{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	animation-delay: 10s;
+	animation: xoayvao 1.5s forwards;
+	z-index: 4;
+	opacity: 0;
+}
+.hobbies .workout p{
+	font-weight: 600;
+	margin-top: 20px;
+	color: white;
+}
+.hobbies .workout img{
+	border-radius: 10px;
+}
+@-webkit-keyframes xoayvao{
+	0%{transform: translateX(0px) rotateZ(0deg);opacity:0;}
+	100%{transform:translateX(300px) rotateZ(360deg);opacity: 1;}
+}
+
+
+.invest{
+	position: absolute;
+	right: 10px;
+	top: 20%;
+	z-index: 5;
+	animation: divao 2s forwards;
+
+}
+@-webkit-keyframes divao{
+	0%{transform: translateX(0);opacity: 0; }
+	100%{transform:translateX(-100px) ;opacity: 1;}
+
+}
+.invest img{
+	/* animation: zoomlen 1s forwards; */
+	width: 250px;
+	border-radius: 10px;
+}
+@-webkit-keyframes zoomlen{
+	0%{
+		transform: scale(0);
+		opacity: 0.6;
+	}
+	100%{transform: scale(1.2);opacity: 1;}
+}
+.hobbies .invest p{
+	font-weight: 600;
+	margin-top: 20px;
+	color: white;
+	animation-delay: 1s;
+	animation: dilen 2.2s forwards;
+}
+@-webkit-keyframes dilen{
+	0%{
+		transform: translateY(35px) rotateX(0);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px) rotateX(360deg);
+		opacity: 1;
+	}
 }

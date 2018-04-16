@@ -10,5 +10,9 @@ $(document).ready(function() {
 		else{
 			$('.menuphai').removeClass('scroll');
 		}
-	});;
+	});
+
+	$('.khoi-product').isotope({
+		itemSelector:'li'
+	});
 });
