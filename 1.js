@@ -18,30 +18,25 @@ $(document).ready(function() {
 	});
 
 	// js cho click chuot
-	$('.navlink.nha').click(function() {
+	$('.nav-link.nha').click(function() {
 		$('html,body').animate({scrollTop: $('#_home').offset().top},1000);
 		
 	});
-	$('.navlink.toi').click(function() {
+	$('.nav-link.toi').click(function() {
 		$('html,body').animate({scrollTop: $('#_about').offset().top},1000);
 		
 	});
-	$('.navlink.gd').click(function() {
+	$('.nav-link.gd').click(function() {
 		$('html,body').animate({scrollTop: $('#_edu').offset().top},1000);
-		
 	});
-	$('.navlink.manh').click(function() {
+	$('.nav-link.manh').click(function() {
 		$('html,body').animate({scrollTop: $('#_strength').offset().top},1000);
-		
 	});
-	$('.navlink.sothich').click(function() {
+	$('.nav-link.sothich').click(function() {
 		$('html,body').animate({scrollTop: $('#_hobbies').offset().top},1000);
-		
 	});
-	$('.navlink.lienlac').click(function() {
+	$('.nav-link.lienlac').click(function() {
 		$('html,body').animate({scrollTop: $('#_fb').offset().top},1000);
-		
 	});
-	
 
 });
