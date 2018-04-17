@@ -424,3 +424,118 @@ h1.tdkhoi:after{
 	margin-bottom: 38px!important;
 	display: block;
 }
+
+
+/* //Thiáº¿t káº¿ responsive cho Ä‘iá»‡n thoai */
+@media (max-width: 576px) {
+	*{}
+
+.khoi-education .tdcap2 {
+    font-size: 19px;
+    color: #193d06;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.khoi-education .nd {
+    font-size: 15px!important;
+    color: black!important;
+}
+.khoi-education{
+	background-color:#81ecec;
+}
+div#_edu {
+    height: auto;
+    padding-bottom: 0px;
+}
+	.khoi-education .row img {
+    visibility: hidden!important;
+	}
+
+.khoi-education .row
+ {
+    background-image: url('images/bg-edu1.jpg');
+    background-size: cover;
+    background-position:center
+}
+.khoi-education .experience i{
+	color:blue;
+}
+.topicon p.chunho {
+    font-size: 10px!important;
+}
+
+.topicon {
+    margin-top: 5px!important;
+}
+
+.topicon i {
+    font-size: 16px!important;
+    margin: 5px 5px !important;
+}
+
+.menu a.nav-link {
+    font-size: 12px;
+}
+
+.logo img {
+    width: 78px!important;
+}
+
+.logo .name {
+    font-size: 16px!important;
+}
+
+div#_hobbies div {
+    width: 113px;
+}
+
+div#_hobbies .read {
+    left: 33px!important;
+}
+
+.workout.text-center {
+    left: -141px;
+}
+
+.invest.text-center {
+    right: -61px;
+}
+
+.strength .col-sm-3._1khoi {
+    margin-left: -13px;
+}
+
+.strength .col-sm-3._1khoi h3.tdnho {
+    font-size: 11px;
+}
+
+.strength .col-sm-3._1khoi p.chunho {
+    font-size: 11px;
+}
+
+h1.tdkhoi.text-uppercase {
+    font-size: 30px;
+    padding-top: 18%;
+}
+
+.noidung .home p.come.text-uppercase {
+    font-size: 23px!important;
+    width: 300px;
+    display: block;
+    left: 89%;
+    position: absolute;
+    z-index: 3;
+    top: 38%;
+}
+
+.noidung .home#_home {
+    width: 100%;
+    height: 263px;
+}
+
+.noidung {
+    width: 78%;
+    margin-left: 29%;
+}
+}

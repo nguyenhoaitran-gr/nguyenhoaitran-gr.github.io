@@ -35,7 +35,7 @@ $(document).ready(function() {
 	$('.nav-link.sothich').click(function() {
 		$('html,body').animate({scrollTop: $('#_hobbies').offset().top},1000);
 	});
-	$('.nav-link.lienlac').click(function() {
+	$('.nav-link.lienlac,.contact').click(function() {
 		$('html,body').animate({scrollTop: $('#_fb').offset().top},1000);
 	});
 
