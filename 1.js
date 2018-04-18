@@ -20,11 +20,9 @@ $(document).ready(function() {
 	// js cho click chuot
 	$('.nav-link.nha').click(function() {
 		$('html,body').animate({scrollTop: $('#_home').offset().top},1000);
-		
 	});
 	$('.nav-link.toi').click(function() {
 		$('html,body').animate({scrollTop: $('#_about').offset().top},1000);
-		
 	});
 	$('.nav-link.gd').click(function() {
 		$('html,body').animate({scrollTop: $('#_edu').offset().top},1000);

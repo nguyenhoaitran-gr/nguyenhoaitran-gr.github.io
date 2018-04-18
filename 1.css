@@ -118,7 +118,13 @@ body{
 	font-size: 50px;
 	font-family: 'Poppins',sans-serif;
 	font-weight: 600;
+	animation: zoomto 2.1s forwards;
 }
+@-webkit-keyframes zoomto{
+	0%{transform: scale(0.6);opacity:0.8;color: #9F9A99}
+	100%{transform: scale(1);opacity:1;color:#23b2e1;}
+}
+
 .menuphai .topicon{
 	margin-top: 34px;
 }
@@ -184,6 +190,13 @@ h1.tdkhoi:after{
 	color: #c72828!important;
 	margin-top: 37px;
 	font-size: 21px;
+}
+.img-edu{
+	animation: imglen 2s forwards;
+}
+@-webkit-keyframes imglen{
+	0%{transform: translateY(300px);opacity: 0}
+	100%{transform: translateY(0px);opacity: 1}
 }
 
 .khoi-education .khoitinnho .giaidoan{
@@ -448,9 +461,10 @@ div#_edu {
     height: auto;
     padding-bottom: 0px;
 }
-	.khoi-education .row img {
-    visibility: hidden!important;
-	}
+.khoi-education .row img {
+visibility: hidden!important;
+}
+
 
 .khoi-education .row
  {
@@ -527,6 +541,11 @@ h1.tdkhoi.text-uppercase {
     position: absolute;
     z-index: 3;
     top: 38%;
+    animation: zoomto 1.2s forwards;
+}
+@-webkit-keyframes zoomto{
+	0%{transform: scale(0.6);opacity:0.8;}
+	100%{transform: scale(1);opacity:1;}
 }
 
 .noidung .home#_home {
@@ -536,6 +555,6 @@ h1.tdkhoi.text-uppercase {
 
 .noidung {
     width: 78%;
-    margin-left: 29%;
+    margin-left: 35%;
 }
 }
